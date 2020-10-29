@@ -12,15 +12,15 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise", "default"
+minimal_mistakes_skin    : # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise", "default"
 
 # Site Settings
 locale                   : "en-US"
 title                    : "Hello World"
 title_separator          : "-"
-subtitle                 : void main() {cout << "Hello World" << endl;} # site tagline that appears below site title in masthead
-name                     : "clearcloud"
-description              : "My playground.!!!"
+subtitle                 : # void main() {cout << "Hello World" << endl;} # site tagline that appears below site title in masthead
+name                     : # "clearcloud"
+description              : # "My playground.!!!"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -101,19 +101,19 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "jodaeri.red@gmail.com"
-#    - label: "Website"
-#      icon: "fas fa-fw fa-link"
-#      url: "https://dev-clearcloud.github.io"
-#    - label: "Twitter"
-#      icon: "fab fa-fw fa-twitter-square"
-#      # url: "https://twitter.com/"
-#    - label: "Facebook"
-#      icon: "fab fa-fw fa-facebook-square"
-#      # url: "https://facebook.com/"
+      # url: "jodaeri.red@gmail.com"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      # url: "https://dev-clearcloud.github.io"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      # url: "https://twitter.com/"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://dev-clearcloud.github.io"
+      # url: "https://dev-clearcloud.github.io"
 #    - label: "Instagram"
 #      icon: "fab fa-fw fa-instagram"
 #      # url: "https://instagram.com/"
@@ -121,24 +121,24 @@ author:
 # Site Footer
 footer:
   links:
-#    - label: "Twitter"
-#      icon: "fab fa-fw fa-twitter-square"
-#      # url:
-#    - label: "Facebook"
-#      icon: "fab fa-fw fa-facebook-square"
-#      # url:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      # url:
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url:"https://dev-clearcloud.github.io"
-#    - label: "GitLab"
-#      icon: "fab fa-fw fa-gitlab"
-#      # url:
-#    - label: "Bitbucket"
-#     icon: "fab fa-fw fa-bitbucket"
-#      # url:
-#    - label: "Instagram"
-#      icon: "fab fa-fw fa-instagram"
-#      # url:
+      # url:"https://dev-clearcloud.github.io"
+    - label: "GitLab"
+      icon: "fab fa-fw fa-gitlab"
+      # url:
+    - label: "Bitbucket"
+     icon: "fab fa-fw fa-bitbucket"
+      # url:
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      # url:
 
 
 # Reading Files
