@@ -14,7 +14,7 @@ minimal_mistakes_skin    : dark # "air", "aqua", "contrast", "dark", "dirt", "ne
 # Site Settings
 locale                   : "en-US"
 title                    : "Hello World"
-title_separator          : "-"
+title_separator          : "voie main() { print("Have a nice day."); }"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "clearcloud"
 description              : "An amazing website..."
