@@ -114,9 +114,9 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       # url: "https://dev-clearcloud.github.io"
-#    - label: "Instagram"
-#      icon: "fab fa-fw fa-instagram"
-#      # url: "https://instagram.com/"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      # url: "https://instagram.com/"
 
 # Site Footer
 footer:
