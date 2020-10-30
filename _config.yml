@@ -10,7 +10,7 @@
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 theme                    : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : dark # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise", "default"
 # Site Settings
 locale                   : "en-US"
 title                    : "Hello World"
@@ -88,13 +88,13 @@ analytics:
 author:
   name             : "dev-clearcloud"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
+  bio              : "A person who wants to be stylish."
   location         : "Republic of Korea"
   email            : "jodaeri.red@gmail.com"
-  links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:jodaeri.red@gmail.com"
+#  links:
+#    - label: "Email"
+#      icon: "fas fa-fw fa-envelope-square"
+#      url: "mailto:jodaeri.red@gmail.com"
 #    - label: "Website"
 #      icon: "fas fa-fw fa-link"
 #      # url: "https://your-website.com"
