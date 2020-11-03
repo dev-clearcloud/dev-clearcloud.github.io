@@ -1,12 +1,13 @@
 ---
 # layout: "post"
-title: "Welcome to dev-clearcloud"
+title: "Welcome to Jodaeri Blog"
 ---
 
+# Welcome...
+**Hello world**
 
-# Welcome
-**Hello world**, this is my first Jekyll blog post.
-I hope you like it!
+
+
 
 um...
 _posts 폴더를 생성해야 하는데 어떻게 생성하지??? 한참을 고민..또 고민 함...
