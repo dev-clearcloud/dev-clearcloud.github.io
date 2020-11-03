@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to dev-clearcloud"
+title: "Welcome to dev-clearcloud"
 ---
 
 # Welcome
