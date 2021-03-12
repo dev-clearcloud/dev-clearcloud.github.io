@@ -10,7 +10,6 @@ tags:
 ---
 
 ### Swift main thread -> UI update
-
 ```
 func UpdateProgress() {
     var i = 0
