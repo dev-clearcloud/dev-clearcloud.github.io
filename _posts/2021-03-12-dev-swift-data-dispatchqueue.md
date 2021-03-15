@@ -7,6 +7,7 @@ categories:
 tags:
   - dispatchqueue
   - async
+  - animate
 ---
 
 ### Swift main thread -> UI update
@@ -27,5 +28,30 @@ func UpdateProgress() {
             i = i + 1
         } // end of while
     }
+}
+```
+
+### Swift animate
+```
+UIView.animate(withDuration: 0.25, animations: {
+    myButton.transform = CGAffineTransform(rotationAngle: CGFloat.pi)
+})
+
+// myView : 2초 동안 회색으로 배경색 변경, 2배 커짐, 180도 회전 하면서 200, 200 좌표로 이동
+UIView.animate(withDuration: 2.0, animations: {
+    myView.backgroundColor = .gray
+
+    let scale = CGAffineTransform(scaleX: 2.0, y: 2.0)
+    let rotate = CGAffineTransform(rotationAngle: .pi)
+    let move = CGAffineTransform(translationX: 200, y: 200)
+
+    let combine = scale.concatenating(rotate).concatenating(move)
+    
+    myView.transform = combine
+}) { (_) in
+        UIView.animate(withDuration: 2.0) {
+            // 적용된 모든 변환을 제거 함.
+            myView.transform = CGAffineTransform.identity
+        }
 }
 ```
